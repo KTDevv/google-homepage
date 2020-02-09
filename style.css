@@ -5,12 +5,13 @@
     text-decoration: none;
 }
 
-.search img{
+#logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 10%;
+    margin-top: 10%;
     text-align: center;
+    padding: 5px;
 }
 .nav{
     
@@ -33,4 +34,27 @@
 }
 .nav a:hover {
     text-decoration: underline;
+}
+.box {
+    border: 1px solid #dcdde1;
+    border-radius: 20px;
+    display: flex;
+    width: 300px;
+}
+#search-box {
+    text-decoration: none ;
+    border: 0px;
+    text-align: center;
+    width: auto;
+    padding: 0px;
+}
+#search-icon {
+    height: 20px;
+    width: auto;
+    padding: 2px;
+}
+.box-items {
+    padding:1px;
+    width: auto;
+    height: auto;
 }
