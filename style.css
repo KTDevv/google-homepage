@@ -39,22 +39,31 @@
     border: 1px solid #dcdde1;
     border-radius: 20px;
     display: flex;
-    width: 300px;
+    width: 500px;
+    height: 40px;
 }
 #search-box {
     text-decoration: none ;
     border: 0px;
     text-align: center;
-    width: auto;
-    padding: 0px;
+    display: inline;
+    position: relative;
+    width: 400px;
+
 }
 #search-icon {
-    height: 20px;
-    width: auto;
+    height: 80%;
     padding: 2px;
+    margin-left: 15px;
 }
 .box-items {
     padding:1px;
     width: auto;
     height: auto;
+    display: contents   ;
+}
+.search-buttons {
+    padding: 5px;
+    text-align: center;
+    margin-top: 10px;
 }
