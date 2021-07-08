@@ -3,6 +3,10 @@
     font-family: 'Cambay', sans-serif;
     color: #2E2E2E;
     text-decoration: none;
+    box-sizing: border-box;
+}
+input:focus, textarea:focus, select:focus{
+    outline: none;
 }
 
 #logo {
@@ -42,6 +46,7 @@
     width: 500px;
     height: 40px;
 }
+
 #search-box {
     text-decoration: none ;
     border: 0px;
@@ -51,10 +56,15 @@
     width: 400px;
 
 }
+#search-box input:focus {
+    outline: none;
+}
 #search-icon {
-    height: 80%;
-    padding: 2px;
-    margin-left: 15px;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    padding-left: 2px;
+    margin: 5px;
 }
 .box-items {
     padding:1px;
@@ -66,4 +76,14 @@
     padding: 5px;
     text-align: center;
     margin-top: 10px;
+    outline: none;
+}
+.search-buttons button {
+    color: black;
+    font-family: inherit;
+    background-color: rgb(240, 240, 240);
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.2rem;
+    cursor: pointer;
 }
